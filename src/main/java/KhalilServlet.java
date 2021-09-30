@@ -9,7 +9,7 @@ import java.io.IOException;
 
 import java.util.Locale;
 
-@WebServlet("/view")
+@WebServlet("/")
 public class KhalilServlet extends HttpServlet {
 	
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
