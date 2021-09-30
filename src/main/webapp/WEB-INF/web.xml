@@ -10,10 +10,7 @@ http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
       <servlet-name>KhalilServlet</servlet-name>
       <servlet-class>com.shatta.KhalilServlet</servlet-class>
   </servlet>  
-  <servlet>
-      <servlet-name>ServletHelloWorld</servlet-name>
-      <servlet-class>servlets.ServletHelloWorld</servlet-class>
-  </servlet>
+ 
   <servlet>
       <servlet-name>HelloJsp</servlet-name>
       <servlet-class>/hello.jsp</servlet-class>
@@ -36,10 +33,7 @@ http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
       <servlet-name>KhalilServlet</servlet-name>
       <url-pattern>/khalil</url-pattern>  
   </servlet-mapping>
-  <servlet-mapping>
-      <servlet-name>ServletHelloWorld</servlet-name>
-      <url-pattern>/lolo</url-pattern>
-  </servlet-mapping>
+  
   <servlet-mapping>
       <servlet-name>HelloJsp</servlet-name>
       <url-pattern>/hello</url-pattern>
