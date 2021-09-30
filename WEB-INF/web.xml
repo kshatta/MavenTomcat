@@ -18,7 +18,20 @@ http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
       <servlet-name>HelloJsp</servlet-name>
       <servlet-class>/hello.jsp</servlet-class>
   </servlet>
+	<servlet>
+		<servlet-name>mvc-dispatcher</servlet-name>
+		<servlet-class>
+			org.springframework.web.servlet.DispatcherServlet
+        </servlet-class>
+		<load-on-startup>1</load-on-startup>
+	</servlet>
+ 
+	
   <!-- Servlet Mapping -->
+  <servlet-mapping>
+    <servlet-name>mvc-dispatcher</servlet-name>
+    <url-pattern>/</url-pattern>
+  </servlet-mapping>
   <servlet-mapping>
       <servlet-name>KhalilServlet</servlet-name>
       <url-pattern>/khalil</url-pattern>  
